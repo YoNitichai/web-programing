@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>hello world</title>
+</head>
+<style>
+
+
+
+</style>
+
+<body>
+   <h2>กรอกข้อความ</h2>
+   <input type="text" placeholder="กรุณากรอกข้อความ" id="name-input">
+   <h1 id="show-name">-</h1>
+   <script>
+      document.getElementById("name-input").addEventListener("input", function () {
+         const value = this.value;
+         document.getElementById("show-name").innerHTML = value
+      });
+   </script>
+
+</body>
+
+</html>

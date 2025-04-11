@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>hello world</title>
+</head>
+
+<body>
+   <h1>เลือกสี</h1>
+<select id="color-select" style="width: 200px;">
+   <Option value = "red">เเดง</Option>
+   <Option value = ">green">สีเขียว</Option>
+   <Option value = "blue">น้ำเงิน</Option>
+</select>
+<h1 id="show-color">-</h1>
+ <script>
+   document.getElementById("color-select").addEventListener("change", function(){
+      const value = this.value
+      document.getElementById("show-color").innerHTML= "สีทีเลือก"+ value;
+      document.getElementById("show-color").style.color= value;
+   });
+ </script>
+
+
+
+
+
+
+
+
+
+
+   
+
+</body>
+
+</html>
