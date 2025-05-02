@@ -1,0 +1,55 @@
+.section1-box{
+    color: rgb(167, 47, 38);
+font-size: 90px;
+text-align: center;
+opacity: 0.5;
+
+}
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    color: rgb(212, 129, 19);
+    text-align: center;
+    font-weight: 400%;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
+.section1-name{
+    text-align: center;
+    color: #944323;
+    font-size: 40%;
+}
+.secton1-meta-data{
+    font-family: "Cal Sans", sans-serif;
+    color: rgb(14, 13, 12);
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.secton1-picture{
+    width: 30%;
+    margin-left: 35%;
+
+  }
+ .secton2-box{
+    text-align: center;
+    color: rgb(182, 46, 46);
+    font-size: 50px;
+
+  }
+
+.secton3-box{
+    display: flex;
+    padding: 15vh;
+}
+
+.section2-box-a{
+    flex: auto;
+    padding: 15px;
+}
+.section2-box-b{
+    flex: auto;
+    padding: 15px;
+}
