@@ -57,3 +57,31 @@ opacity: 0.5;
     text-align: center;
     background-color: darksalmon;
 }
+
+
+
+.menu-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(175, 201, 150);
+
+
+}
+.menu-itme{
+    color: #0a0202;
+    text-align: center;
+    font-size: 100%;
+    padding: 20px;
+    background-color: rgb(207, 209, 107);
+}
+
+.secton-name{
+    
+    color: #1d1a13;
+    text-align: center;
+    justify-content: center;
+    
+}
+.alert-nitichai{
+
+}
