@@ -1,15 +1,18 @@
-const name = window.prompt("คุณชื่อไร");
-if(username !== null|| username !=="") {
-document.getElementById("show-name").innerText = "สวัสดี"+"name"
+const headline= document.getElementsByTagName('h1')
+headline[4].innerText='หยุดพัก'
 
+const getElementsByTagName = document.getElementsByTagName(font-thai)
+console.log(getbyclass);
+
+
+setTimeout(() => {
+    const c = window.confirm("ไปหน้า goole กันไหม");
+
+if(c){
+    window.location.assign("https:www.goole.com/");
 }
+}, 5000);
 
-function showUserAgent(){
-    const UserAgent = navigator.userAgent;
-    window.alert("User Agent:"+ userAgent);
 
-}
 
-function gotoyoutube(){
-    window.open("https://www.youtube.com/");
-}
+
